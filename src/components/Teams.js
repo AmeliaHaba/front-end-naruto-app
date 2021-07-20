@@ -6,7 +6,7 @@ import KurenaiImg from "../images/Kurenai.jpg";
 
 const teamList = [
   {
-    name: "Team 7 (Kakashi)",
+    name: "Team 7 (Kaashi)",
     description:
       "Team 7 is led by Kikashi Sensei. Kikashi is known for always showing up late, reading romance novels, and for being the Copy Cat Ninja.",
     image: KakashiImg,
