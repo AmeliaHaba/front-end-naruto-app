@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import HowTo from "./components/HowTo";
 import About from "./components/About";
@@ -14,17 +14,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar />
-        <Switch>
-          <Route path="/About" component={About} />
-          <Route path="/HowTo" component={HowTo} />
-          <Route path="/kakashi" component={Kakashi} />
-          <Route path="/guy" component={Guy} />
-          <Route path="/asuma" component={Asuma} />
-          <Route path="/kurenai" component={Kurenai} />
-          <Route path="/" component={Home} />
-        </Switch>
-        <Footer />
+        <Router>
+          <NavBar />
+          <Switch>
+            <Route path="/About" component={About} />
+            <Route path="/HowTo" component={HowTo} />
+            <Route path="/kakashi" component={Kakashi} />
+            <Route path="/guy" component={Guy} />
+            <Route path="/asuma" component={Asuma} />
+            <Route path="/kurenai" component={Kurenai} />
+            <Route path="/" component={Home} />
+          </Switch>
+          <Footer />
+        </Router>
       </div>
     );
   }
