@@ -15,7 +15,6 @@ export class About extends Component {
           missions. The show is all about believing in yourself and protecting
           your village.
         </h3>
-
         <h4>
           You can watch Naruto on Netflix or Hulu and find the manga series
           online or at a comic book store.
