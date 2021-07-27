@@ -5,10 +5,10 @@ import HowTo from "./components/HowTo";
 import About from "./components/About";
 import Home from "./containers/Home";
 import Footer from "./components/Footer";
-import Kakashi from "./components/teams/Kakashi";
-import Guy from "./components/teams/Guy";
-import Asuma from "./components/teams/Asuma";
-import Kurenai from "./components/teams/Kurenai";
+import KakashiList from "./containers/KakashiList";
+import GuyList from "./containers/GuyList";
+import AsumaList from "./containers/AsumaList";
+import KurenaiList from "./containers/KurenaiList";
 
 class App extends Component {
   render() {
@@ -19,10 +19,10 @@ class App extends Component {
           <Switch>
             <Route path="/About" component={About} />
             <Route path="/HowTo" component={HowTo} />
-            <Route path="/kakashi" component={Kakashi} />
-            <Route path="/guy" component={Guy} />
-            <Route path="/asuma" component={Asuma} />
-            <Route path="/kurenai" component={Kurenai} />
+            <Route path="/Kakashi" component={KakashiList} />
+            <Route path="/Guy" component={GuyList} />
+            <Route path="/Asuma" component={AsumaList} />
+            <Route path="/Kurenai" component={KurenaiList} />
             <Route path="/" component={Home} />
           </Switch>
           <Footer />

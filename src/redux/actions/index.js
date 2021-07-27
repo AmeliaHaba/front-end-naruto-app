@@ -1,4 +1,5 @@
 // this is where fetches go
+
 export const fetchCharacters = () => {
   return (dispatch) => {
     return fetch("http://localhost:3000/characters")
