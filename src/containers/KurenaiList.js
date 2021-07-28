@@ -25,6 +25,7 @@ class KurenaiList extends Component {
   }
 }
 
+
 const mapStateToProps = (state) => {
   return {
     characters: state.characters,
