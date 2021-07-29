@@ -5,7 +5,6 @@ import GuyImg from "../images/Guy.jpg";
 import AsumaImg from "../images/Asuma.jpg";
 import KurenaiImg from "../images/Kurenai.jpg";
 
-
 const teamList = [
   {
     name: "Kakashi",
