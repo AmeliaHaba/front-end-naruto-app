@@ -16,14 +16,22 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: baseline;
-  margin: 2%;
+  align-items: center;
+  margin: 0 0 4% 0;
+  background-color: orange;
+  padding: 1%;
+}
+
+.navbar a:hover {
+  color: white;
 }
 
 .nav-links ul {
   display: flex;
   flex-direction: row;
   list-style: none;
+  font-weight: bold;
+  padding: 0 5% 0 5%;
 }
 
 a {
@@ -36,17 +44,19 @@ a:hover {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-small;
   left: 0;
   bottom: 0;
   width: 100%;
+  margin-right: 2%;
   background-color: orange;
   color: black;
   text-align: left;
   padding-top: 2px;
   padding-bottom: 2px;
+
 }
 
 .header {
@@ -77,11 +87,27 @@ a:hover {
 }
 
 .team-img {
+  width: 250px;
+  height: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: auto;
-  height: 200px;
+}
+
+.Kakashi-img {
+  background: url('./images/Kakashi.jpg') 50% 50% no-repeat;
+} 
+
+.Asuma-img {
+  background: url('./images/Asuma.jpg') 50% 50% no-repeat;
+}
+
+.Guy-img {
+  background: url('./images/Guy.jpg') 50% 50% no-repeat;
+}
+
+.Kurenai-img {
+  background: url('./images/Kurenai.jpg') 50% 50% no-repeat;
 }
 
 .teams-header {
@@ -103,4 +129,32 @@ a:hover {
   margin-bottom: 50px;
   inline-size: 50%;
   overflow: hidden;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.howto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.this-character {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.this-character span {
+  font-weight: bold;
 }

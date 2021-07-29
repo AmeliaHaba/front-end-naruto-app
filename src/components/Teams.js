@@ -40,11 +40,11 @@ class Teams extends Component {
         <div className="all-teams">
           {teamList.map((team) => {
             return (
-              <div className="team-container">
+              <div className="team-container" >
                 <h2 className="team-name">
                   <Link to={`/${team.name}`}>{team.name}</Link>
                 </h2>
-                <img className="team-img" src={team.image} alt="logo img" />
+                <img className={`${team.name}-img team-img`} src={team.image} alt="logo img" />
                 <p className="team-desc">{team.description}</p>
               </div>
             );
