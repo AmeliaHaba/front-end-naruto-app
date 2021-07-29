@@ -12,6 +12,7 @@ export class HowTo extends Component {
           team!
         </h3>
       </div>
+      
     );
   }
 }
