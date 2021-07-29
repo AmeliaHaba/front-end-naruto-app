@@ -15,19 +15,19 @@ const teamList = [
   {
     name: "Asuma",
     description:
-      "Team 7 is led by Kikashi Sensei. Kikashi is known for always showing up late, reading romance novels, and for Copy Cat Ninja.",
+      "Team 10 is led by Asuma Sensei. Asuma is a tall man &can usually be seen smoking a cigarette. He is known for his Fire Style: burning Ash justsu.",
     image: AsumaImg,
   },
   {
     name: "Guy",
     description:
-      "Team 7 is led by Kikashi Sensei. Kikashi is known for always showing up late, reading romance novels, and for being the Copy Cat Ninja.",
+      "Team Guy is led by none other than Guy Sensei. Guy is known for being a master of taijutsu and is extremely close with his student, Rock Lee. Though he has some odd mannersims, he an extremely powerful shinobi.",
     image: GuyImg,
   },
   {
     name: "Kurenai",
     description:
-      "Team 7 is led by Kikashi SenseiKikashi is known for always showing up late, reading romance novels, and for being the Copy Cat Ninja.",
+      "Team 8 is led by Sensei Kurenai. She is an extremely brave and caring ninja. She is known for being a genjutsu prodigy.",
     image: KurenaiImg,
   },
 ];
