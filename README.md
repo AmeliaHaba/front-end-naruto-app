@@ -24,4 +24,5 @@ This app is licensed under The MIT License
 
 Sources:
 https://naruto.fandom.com/wiki/Narutopedia
+
 https://www.w3schools.com/
