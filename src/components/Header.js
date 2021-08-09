@@ -6,6 +6,7 @@ export class Header extends Component {
       <div className="header">
         <h1> Sensei and Shinobi </h1>
       </div>
+      
     );
   }
 }
