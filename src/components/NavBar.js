@@ -7,6 +7,7 @@ export class NavBar extends Component {
       <div className="navbar">
         <div className="nav-title">
           <h1>
+
             
             <Link to="/">Sensei and Shinobi</Link>
           </h1>
