@@ -8,7 +8,6 @@ const Character = (props) => {
       <p><span>Village:</span> {props.character.village}</p>
       <p><span>Team:</span> {props.character.team}</p>
     </div>
-    
   );
 };
 
