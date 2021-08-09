@@ -20,6 +20,7 @@ export class About extends Component {
           You can watch Naruto on Netflix or Hulu and find the manga series
           online or at a comic book store.
         </h4>
+        
       </div>
     );
   }
